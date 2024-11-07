@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Converter Celsius para Fahrenheit</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="container form-container">
+      <div class="row justify-content-center">
+        <div class="col-md-5">
+          <div class="card form-card">
+            <div class="card-header text-center">
+              <h4>Converter Celsius para Fahrenheit</h4>
+            </div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="celsius">Temperatura em Celsius</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="celsius"
+                  placeholder="Digite a temperatura em Celsius"
+                  required
+                />
+              </div>
+              <div class="text-center mb-4">
+                <button type="submit" class="btn btn-primary">Converter</button>
+              </div>
+              <div class="form-group">
+                <label for="fahrenheit">Temperatura em Fahrenheit</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="fahrenheit"
+                  readonly
+                  value="Resultado da conversão será exibido aqui."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./scripts/principal.js"></script>
+  </body>
+</html>

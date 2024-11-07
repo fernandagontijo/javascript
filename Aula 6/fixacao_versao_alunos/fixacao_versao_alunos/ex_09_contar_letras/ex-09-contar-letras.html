@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contar Letras em uma Palavra</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="container form-container">
+      <div class="row justify-content-center">
+        <div class="col-md-5">
+          <div class="card form-card">
+            <div class="card-header text-center">
+              <h4>Contar Letras em uma Palavra</h4>
+            </div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="palavra">Palavra</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="palavra"
+                  placeholder="Digite a palavra"
+                  required
+                />
+              </div>
+              <div class="text-center mb-4">
+                <button type="submit" class="btn btn-primary">
+                  Contar Letras
+                </button>
+              </div>
+              <div class="form-group">
+                <label for="resultadoLetras">Número de Letras</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="resultadoLetras"
+                  readonly
+                  value="O número de letras será exibido aqui."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./scripts/principal.js"></script>
+  </body>
+</html>
