@@ -22,7 +22,9 @@ const livros = [
    }
 ]
 
-const divBiblioteca = document.querySelector('#biblioteca') 
+function carregarLivros(livros){
+
+    const divBiblioteca = document.querySelector('#biblioteca') 
 divBiblioteca.innerHTML = ''
 
 livros.forEach(livro => {
@@ -39,3 +41,7 @@ livros.forEach(livro => {
     divBiblioteca.innerHTML += estruturaHtml
 })
 
+
+}
+
+carregarLivros(livros)
