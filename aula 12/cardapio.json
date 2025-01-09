@@ -1,0 +1,16 @@
+[
+    {
+      "nome": "Pizza",
+      "descricao": "Pizza italiana autêntica, com massa artesanal, ingredientes frescos e sabores tradicionais direto da Itália.",
+      "preco": 95,
+      "imagem": "https://www.skymsen.com/ckfinder/userfiles/images/os%20melhores%20Tipos%20de%20massa%20de%20pizza.jpg",
+      "id": "1"
+    },
+    {
+      "nome": "Risoto",
+      "descricao": "Risoto cremoso, preparado com ingredientes frescos e toques de sabor que celebram a verdadeira culinária italiana.",
+      "preco": 42,
+      "imagem": "https://receitas.wap.ind.br/wp-content/uploads/2024/10/risoto-de-camarao-1080x640.jpg",
+      "id": "2"
+    }
+  ]
